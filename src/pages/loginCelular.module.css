@@ -1,0 +1,209 @@
+.LoginCelular {
+    margin: 0;
+    padding: 0;
+}
+
+.mensagem {
+    font-size: 1.5rem; /* Alterado para um tamanho mais razoável */
+    color: #b81313;
+    margin-bottom: 10px;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto; /* Adicionado 0 para a margem superior */
+    margin-right: 50px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="submit"] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    margin-bottom: 10px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #b30000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    height: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5rem;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+}
+
+.cabecalho img {
+    width: 15rem;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.box {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+}
+
+.banner {
+    background-color: rgb(255, 255, 255);
+    width: 35rem;
+    height: 40rem;
+    border-radius: 10px;
+    border: 0.1px solid rgb(216, 216, 216);
+    font-size: 16px;
+}
+
+.banner h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    font-size: 2.5rem; /* Alterado para um tamanho mais razoável */
+    color: rgb(61, 61, 61);
+}
+
+.banner p {
+    font-size: 1.25rem; /* Alterado para um tamanho mais razoável */
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    color: rgb(49, 49, 49);
+}
+
+.banner img {
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.banner li {
+    list-style: none;
+}
+
+@media screen and (max-width: 820px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 16rem;
+        height: 68vh;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .cabecalho img {
+        margin-right: 6rem;
+    }
+
+    .img {
+        margin-top: -13rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner h1,
+    .banner p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner ul {
+        display: flex;
+        width: 33rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .cabecalho {
+        display: flex;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .cabecalho img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 6rem;
+        width: 5rem;
+        margin-top: 0.3rem;
+    }
+
+    .banner {
+        display: flex;
+        width: 21.5rem;
+        height: 35rem;
+        margin: 0;
+        height: 23rem;
+    }
+
+    .banner h1 {
+        margin-top: -5rem;
+        font-size: 1.75rem; /* Alterado para um tamanho mais razoável */
+    }
+
+    .banner p {
+        font-size: 1rem; /* Alterado para um tamanho mais razoável */
+    }
+
+    .img {
+        width: 20rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        margin-top: -8rem;
+    }
+}
