@@ -7,7 +7,7 @@ function TelaLogin () {
         <div className={styles.container}>
           <div className={styles.cabecalho}>
             <a href="/index.html">
-              <img src="/images/logo-nova-era-.png" alt="" />
+              <img src="/images/alanfood.png" alt="" />
             </a>
           </div>
           <div>

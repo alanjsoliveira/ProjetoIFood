@@ -1,0 +1,41 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .endereco {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .endereco:last-child {
+    border-bottom: none;
+  }
+  
+  .endereco p {
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-right: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c9302c;
+  }
+  

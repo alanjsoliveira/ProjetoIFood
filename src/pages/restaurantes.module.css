@@ -21,6 +21,11 @@
     color: red;
 }
 
+
+.cabecalho img{
+    width: 100px;
+}
+
 .btnRestaurante {
     border: none; 
     background-color: transparent; 

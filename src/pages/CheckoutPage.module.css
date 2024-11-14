@@ -1,0 +1,82 @@
+/* src/pages/CheckoutPage.module.css */
+
+.checkoutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .section h3 {
+    font-size: 1.2rem;
+    color: #ea1d2c;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .select, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .select:focus, select:focus {
+    outline: none;
+    border-color: #ea1d2c;
+  }
+  
+  .summaryRow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .summaryRow h4 {
+    font-size: 1.2rem;
+    color: #ea1d2c;
+    font-weight: bold;
+  }
+  
+  .placeOrderButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ea1d2c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .placeOrderButton:hover {
+    background-color: #c2121f;
+  }
+  
